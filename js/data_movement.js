@@ -1,124 +1,127 @@
 data_movement = [
     {
-        title: "Move",
+        title: "Move (Κίνηση)",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
+        subtitle: "Κόστος: 5ft ανά 5ft",
+        description: "Κόστος κίνησης: 5ft ανά 5ft μετακίνησης",
         reference: "PHB, pg. 190.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "5ft = 1.5m ή 1 τετράγωνο στον χάρτη",
+            "Εάν έχετε περισσότερες από μία ιδών ταχύτητες, όπως η ταχύτητα πεζοπορίας και η ταχύτητα πτήσης, μπορείτε να εναλλάσσεστε μεταξύ των ταχυτήτων σας κατά τη διάρκεια της κίνησής σας. Όποτε αλλάζετε, αφαιρέστε την απόσταση που έχετε ήδη μετακινήσει από τη νέα ταχύτητα." ,
+            "Μπορείτε να διαβήται τον χώρο ενός φιλικού πλάσματος.",
+            "Μπορείτε να διαβήται τον χώρο ενός εχθρικού πλάσματος μόνο εάν το πλάσμα είναι τουλάχιστον δύο μεγέθη μεγαλύτερα ή μικρότερα από εσάς.",
+            "Ο χώρος ενός άλλου πλάσματος είναι δύσκολο έδαφος (difficult terrain) για εσάς.",
+            "Είτε ένα πλάσμα είναι φίλος ή εχθρός, δεν μπορείτε να τερματίσετε την κίνησή σας στο χώρο του."
+
         ]
     },
     {
-        title: "Climb",
+        title: "Climb (αναρρίχηση)",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
+        subtitle: "Κόστος: 10ft ανά 5ft",
+        description: "Κόστος κίνησης: 10ft ανά 5ft Αναρίχησης ",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "Μπορεί να περιλαμβάνει Strength (Athletics) check εάν η ανάβαση είναι δύσκολη"
         ]
     },
     {
-        title: "Swim",
+        title: "Swim (Κολύμπι)",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
+        subtitle: "Κόστος: 10ft ανά 5ft",
+        description: "Κόστος κίνησης: 10ft ανά 5ft κολύμβησης",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "Μπορεί να περιλαμβάνει Strength (Athletics) check εάν η κολύμβηση είναι δύσκολη"
         ]
     },
     {
-        title: "Drop prone",
+        title: "Drop prone (πρηνής)",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
+        subtitle: "Κόστος: 0ft",
+        description: "Κόστος κίνησης: 0ft (free)",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "Μπορείτε να πέσετε πρηνηδόν χωρίς να χρησιμοποιήσετε καμία από τις ταχύτητές σας",
+            "Για να μετακινηθείτε ενώ είστε επιρρεπείς, πρέπει να συρθήτε ή να χρησιμοποιήσετε μαγεία όπως τηλεμεταφορά",
+            "Η πτώση πρηνηδόν προσθέτει την κατάσταση <i> Prone </i> (οι επιθέσεις melee εναντίον σας έχουν advantage, οι επιθέσεις εξ αποστάσεως εναντίον σας έχουν disadvantage, ενώ οι επιθέσεις σας έχουν disadvantage)"
+
         ]
     },
     {
-        title: "Crawl",
+        title: " (σύρσιμο)",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
+        subtitle: "Κόστος: 10ft ανά 5ft",
+        description: "Κόστος κίνησης: 10ft ανά 5ft σουρσίματος",
         reference: "PHB, pg. 182.",
         bullets: [
 
         ]
     },
     {
-        title: "Stand up",
+        title: "Stand up (έγερση)",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
+        subtitle: "Κόστος: μισή ταχύτητα κίνησης",
+        description: "Κόστος κίνησης: μισή ταχύτητα κίνησης",
         reference: "PHB, pg. 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "Δεν μπορείς να σταθείς αν δεν έχεις αρκετή κίνηση ή αν η ταχύτητά σου είναι 0"
         ]
     },
     {
-        title: "High jump",
+        title: "High jump (Αλμα εις υψος)",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
-        
+        subtitle: "Κόστος: 5ft ανά 5ft",
+        description: "Κόστος κίνησης: 5ft ανά 5ft Άλματος",
         reference: "PHB, pg. 182.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            "Πηδίζετε στον αέρα έναν αριθμό ποδιών ίσο με το <b> 3 + your Strength modifier </b> εάν τρέξετε τουλάχιστον 10 ft με τα πόδια αμέσως πριν από το άλμα.",
+            "Όταν κάνετε ένα στατικό άλμα, μπορείτε να πηδήσετε την μισή από την παραπάνω απόσταση.",
+            "Μπορείτε να επεκτείνετε τα χέρια σας κατά το ήμισυ του ύψους σας πάνω από τον εαυτό σας κατά τη διάρκεια του άλματος.",
+            "Σε ορισμένες περιπτώσεις, το DM σας μπορεί να σας επιτρέψει να κάνετε ένα Strength (Athletics) check για να ανεβείτε υψηλότερα από ό, τι συνήθως."
         ]
     },
     {
-        title: "Long jump",
+        title: "Long jump (Αλμα εις μήκος)",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "Κόστος: 5ft ανά 5ft",
+        description: "Κόστος κίνησης: 5ft ανά 5ft Άλματος",
         reference: "PHB, pg. 182.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "Καλύπτετε αριθμό ποδιών όσο το <b>Strength score</b> αν τρέξετε τουλάχιστον 10 ft αμέσως πριν από το άλμα.",
+            "Όταν κάνετε στατικό  Αλμα εις μήκος, μπορείτε να πηδήσετε τη μισή από την παραπάνω απόσταση",
+            "Μπορεί να περιλαμβάνει έλεγχο DC 10 Strength (Athletics) check για να προσπεράσετε ένα χαμηλό εμπόδιο (όχι μεγαλύτερο από το ένα τέταρτο της απόστασης του άλματος). Χτυπήσατε στο εμπόδιο σε μια αποτυχημένη προσπάθεια.",
+            "Μπορεί να περιλαμβάνει DC 10 Dexterity (Acrobatics) check για να προσγιωθήτε στα πόδια σας σε difficult terrain. Προσγειώνεστε prone σε περιπτωση αποτυχίας ."
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvise (Αυτοσχεδιασμός)",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "Δεν περιλαμβάνεται στη λίστα",
+        description: "Εκτελέστε οποιαδήποτε κίνηση ή κόλπο που μπορείτε να φανταστείτε",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Όταν περιγράφετε ένα είδος κίνησης που δεν περιγράφεται αλλού στους κανόνες, ο DM σας λέει εάν είναι δυνατόν και τι είδους roll πρέπει να κάνετε, εάν υπάρχει, για να προσδιορίσετε την επιτυχία ή την αποτυχία."
         ]
     },
     {
         title: "Difficult terrain",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
+        subtitle: "Συντελεστής κόστους: +5ft per 5ft",
         reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        description: "Η μετακίνηση σε δύσκολο έδαφος κοστίζει επιπλέον 5ft ανά 5ft κίνησης",
         bullets: [
         ]
     },
     {
         title: "Grapple move",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
+        subtitle: "Συντελεστής: 1/2 ταχύτητας",
+        description: "Σύρετε ή κουβαλάτε το πλάσμα μαζί σας",
         reference: "PHB, pg. 195.",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            "Εάν κινείστε ενώ Grapple ένα άλλο πλάσμα, η ταχύτητά σας μειώνεται στο μισό, εκτός εάν το πλάσμα είναι δύο ή περισσότερα μεγέθη μικρότερα από εσάς.",
+            "Δείτε την attack action για το πώς να πιάσετε ένα πλάσμα."
+
         ]
     }
 ]
