@@ -2,7 +2,7 @@ data_action = [
     {
         title: "Attack",
         icon: "crossed-swords",
-        subtitle: "Επίθεση επαφής ή από απόσταση",
+        subtitle: "Επίθεση melee ή από απόσταση",
         description: "Εκτελέστε μια επίθεση με το όπλο σας σώμα με σώμα ή από απόσταση",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
@@ -16,7 +16,7 @@ data_action = [
     {
         title: "Grapple",
         icon: "grab",
-        subtitle: "Ειδική επίθεση επαφής.",
+        subtitle: "Ειδική επίθεση melee.",
         description: "Προσπαθήστε να αρπάξετε ένα πλάσμα ή να παλέψετε με αυτό",
         reference: "PHB, pg. 195.",
         bullets: [
@@ -30,7 +30,7 @@ data_action = [
     {
         title: "Shove",
         icon: "hand",
-        subtitle: "Ειδική επίθεση επαφής",
+        subtitle: "Ειδική επίθεση melee",
         description: "Σπρώξτε ένα πλάσμα, είτε για να το ρίξετε κάτω είτε να το απομακρύνετε από εσάς",
         reference: "PHB, pg. 195.",
         bullets: [
@@ -101,7 +101,7 @@ data_action = [
     {
         title: "Help",
         icon: "telepathy",
-        subtitle: "Δώστε σ'ένα σύμμαχο advantage",
+        subtitle: "Δώστε σε σύμμαχο advantage",
         description: "Δώστε σ'ένα σύμμαχο πλεονέκτημα (advantage) σε έλεγχο ικανότητας ή επίθεση",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -114,7 +114,7 @@ data_action = [
     {
         title: "Use Object",
         icon: "snatch",
-        subtitle: "Αλληλεπίδραση με αντικείμενα ",
+        subtitle: "Χρήση αντικειμένων",
         description: "Αλληλεπιδράστε με ένα δεύτερο αντικείμενο ή χρησιμοποιήστε ειδικές δυνατότητες αντικειμένων",
         reference: "PHB, pg. 193.",
         bullets: [
@@ -125,7 +125,7 @@ data_action = [
     {
         title: "Use shield",
         icon: "round-shield",
-        subtitle: "Εξοπλίστε ασπίδα",
+        subtitle: "Χρήση ασπίδας",
         description: "Εξοπλίστε ασπίδα",
         reference: "PHB, pgs. 144-146.",
         bullets: [
@@ -137,8 +137,8 @@ data_action = [
     {
         title: "Hide",
         icon: "hood",
-        subtitle: "Προσπάθεια απόκρυψης",
-        description: "Προσπάθεια απόκρυψης",
+        subtitle: "Κάλυψη απόκρυψη",
+        description: "Προσπάθεια Κάλυψης Απόκρυψης",
         reference: "PHB, pg. 192.",
         bullets: [
           "Δεν μπορείς να κρυφτείς από ένα πλάσμα που μπορεί να σε δει. Πρέπει να έχεις πλήρη κάλυψη, να είσαι σε μια βαριά σκοτεινή περιοχή, να είσαι αόρατος ή να αποκλείεται με άλλο τρόπο το οπτικό πεδίο του εχθρού.",
@@ -152,7 +152,7 @@ data_action = [
     {
         title: "Search",
         icon: "magnifying-glass",
-        subtitle: "Ψάξιμο - Έρευνα",
+        subtitle: "Ψάξιμο-Έρευνα",
         description: "Αφιερώστε την προσοχή σας να βρήτε κάτι",
         reference: "PHB, pg. 193.",
         bullets: [
@@ -162,7 +162,7 @@ data_action = [
     {
         title: "Ready",
         icon: "stopwatch",
-        subtitle: "Επιλέξτε ενεργοποίηση μιας action",
+        subtitle: "Προετοιμασία μιας action",
         description: "Επιλέξτε μια συνθήκη-έναυσμα  και μια αντίδραση-αποτέλεσμα ",
         reference: "PHB, pg. 193.",
         bullets: [
@@ -176,7 +176,7 @@ data_action = [
     {
         title: "Use class feature",
         icon: "embrassed-energy",
-        subtitle: "Ορισμένες λειτουργίες χρησιμοποιούν action",
+        subtitle: "Action Φυλής ή Κλάσης",
         description: "Χρησιμοποιήστε ένα χαρακτηριστικό της φυλής σας ή της Class σας που χρησιμοποιεί action",
         reference: "Δείτε τη σελίδα της Class σας για περισσότερες πληροφορίες.",
         bullets: [
@@ -186,7 +186,7 @@ data_action = [
     {
         title: "Stabilize a creature",
         icon: "first-aid",
-        subtitle: "Παρέχετε τις πρώτες βοήθειες σε ένα ετοιμοθάνατο πλάσμα",
+        subtitle: "Πρώτες βοήθειες",
         description: "Σταματήστε ένα ετοιμοθάνατο πλάσμα απ το να κάνει death saving throws",
         reference: "PHB, pg. 197.",
         bullets: [
@@ -199,7 +199,7 @@ data_action = [
     {
         title: "Improvise",
         icon: "juggler",
-        subtitle: "Eνέργεια που δεν περιλαμβάνεται σε αυτήν τη λίστα",
+        subtitle: "Κάτι δεν υπόκειται σε κανόνες",
         description: "Εκτελέστε οποιαδήποτε ενέργεια μπορείτε να φανταστείτε",
         reference: "PHB, pg. 193.",
         bullets: [
