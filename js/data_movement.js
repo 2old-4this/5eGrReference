@@ -113,7 +113,7 @@ data_movement = [
         ]
     },
     {
-        title: "Grapple move",
+        title: "Grapple move (Κίνηση υπό Αρπαγή)",
         icon: "grab",
         subtitle: "Συντελεστής: 1/2 ταχύτητας",
         description: "Σύρετε ή κουβαλάτε το πλάσμα μαζί σας",

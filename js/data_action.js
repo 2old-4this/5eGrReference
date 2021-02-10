@@ -16,7 +16,7 @@ data_action = [
     {
         title: "Grapple",
         icon: "grab",
-        subtitle: "Ειδική επίθεση melee.",
+        subtitle: "Αρπαγή melee.",
         description: "Προσπαθήστε να αρπάξετε ένα πλάσμα ή να παλέψετε με αυτό",
         reference: "PHB, pg. 195.",
         bullets: [
