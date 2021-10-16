@@ -16,19 +16,19 @@ data_bonusaction = [
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        description: "Κάντε ένα ξόρκι με casting time 1 bonus action",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Δεν μπορείτε να κάνετε ένα ξόρκι με την Action σας και ένα διαφορετικό ξόρκι με τη Bonus Action σας στον ίδιο γύρο, εκτός εάν η Action χρησιμοποιείται για την εκτέλεση ενός cantrip.",
+            "Για περισσότερες λεπτομέρειες, ανατρέξτε στην <i>Cast a spell</i> action."
         ]
     },
     {
         title: "Use class feature",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Ορισμένες λειτουργίες χρησιμοποιούν ενέργειες μπόνους bonus actions",
+        description: "Χρησιμοποιήστε μια racial ή class λειτουργία που Χρησιμοποιήται ως bonus action",
+        reference: "Δείτε τα class features τους χαρακτήρα σας για περισσότερες πληροφορίες.",
         bullets: [
 
         ]
