@@ -1,4 +1,5 @@
-dnd5e-quickref
+
+dnd5e-quickref by https://github.com/crobi/dnd5e-quickref
 ==============
 
 Quick reference sheet for D&amp;D 5e
