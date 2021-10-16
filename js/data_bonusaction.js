@@ -2,14 +2,14 @@ data_bonusaction = [
     {
         title: "Offhand Attack",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        subtitle: "Χρήση με την Attack action",
+        description: "Επίθεση με το δεύτερο χέρι ",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Μπορεί να χρησιμοποιηθεί μόνο αφού κάνετε επίθεση <i >Attack</i > με ένα ελαφρύ όπλο που κρατάτε στο ένα χέρι.",
+            "Εκτελέστε μια μόνο επίθεση <i >Attack</i > με ένα διαφορετικό ελαφρύ όπλο που κρατάτε στο άλλο χέρι.",
+            "Δεν προσθέτετε το Proficiency Bonus στη ζημιά της επίθεσης, εκτός εάν αυτό είναι αρνητικό.",
+            "Εάν οποιοδήποτε από τα όπλα έχει την ιδιότητά thrown, μπορείτε να πετάξετε το όπλο, αντί να κάνετε επίθεση melee."
         ]
     },
     {
